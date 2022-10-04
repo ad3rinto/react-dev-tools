@@ -8,9 +8,9 @@ function Card(props) {
       <div className="top">
         <h2 className="name">{props.name}</h2>
         <Avatar img={props.img}/>
-        <Detail tel={props.tel} email={props.email}/>
+        
       </div>
-      
+      <Detail tel={props.tel} email={props.email}/>
     </div>
   );
 }
